@@ -8,8 +8,7 @@ The tool can also run completely offline. Simply download all files from the rep
 
 ## How to use it
 
-1. **Load an image:** Click the `Evaluate image (no upload)` button and select your image file (.jpeg, .png, or .tiff)
-  **Beware:** .tiff-Images are only loaded if <500MB. If you want to work with larger files, convert to .jpeg or adjust line `Tiff.initialize({TOTAL_MEMORY: 524288000});` in imageQM.html
+1. **Load an image:** Click the `Evaluate image (no upload)` button and select your image file (.jpeg, .png, or .tiff). ⚠️ TIFF file size limit: TIFF files larger than 500MB cannot be loaded. For larger files, either convert to .jpeg or increase the memory limit by editing `Tiff.initialize({TOTAL_MEMORY: 524288000});` in `imageQM.html`.
 3. **Check composition margins:** Click `Toggle margins` to display areas (typically 5% on three sides, 10% on the bottom) that should remain free of object elements for optimal aesthetics
 4. **View composition guides:** Click `Toggle grid overlay` to display:
    - Rule of thirds lines for balanced composition

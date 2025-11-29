@@ -407,7 +407,7 @@ function displayEXIF(iso, aperture, exposure){
   exifDataElem.classList.remove('good','warning');
   if((iso>200)||(aperture&&(aperture<8||aperture>16))||(exposure>1)){
     exifDataElem.classList.add('warning');
-    exifDataElem.textContent+=' ⚠️ Exposure check!';
+    exifDataElem.textContent+=' ⚠️ Check Exposure!';
   }else exifDataElem.classList.add('good');
 }
 

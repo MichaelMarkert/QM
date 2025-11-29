@@ -9,8 +9,9 @@ The tool can also run completely offline. Simply download all files from the rep
 ## How to use it
 
 1. **Load an image:** Click the `Evaluate image (no upload)` button and select your image file (.jpeg, .png, or .tiff)
-2. **Check composition margins:** Click `Toggle margins` to display areas (typically 5% on three sides, 10% on the bottom) that should remain free of object elements for optimal aesthetics
-3. **View composition guides:** Click `Toggle grid overlay` to display:
+  **Beware:** .tiff-Images are only loaded if <500MB. If you want to work with larger files, convert to .jpeg or adjust line `Tiff.initialize({TOTAL_MEMORY: 524288000});` in imageQM.html
+3. **Check composition margins:** Click `Toggle margins` to display areas (typically 5% on three sides, 10% on the bottom) that should remain free of object elements for optimal aesthetics
+4. **View composition guides:** Click `Toggle grid overlay` to display:
    - Rule of thirds lines for balanced composition
    - 45° diagonal lines to assist with proper object rotation on your photography table
 

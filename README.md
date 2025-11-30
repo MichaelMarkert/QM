@@ -21,7 +21,7 @@ The tool displays available metadata from your image file, including camera sett
 
 **Red values indicate potential sharpness issues.** When ISO, aperture, or shutter speed values appear in red (exceeding recommended thresholds), your image may be blurry or the object may not be as sharp as possible. Carefully review the image at 100% zoom to verify sharpness.
 
-## Edge Distribution Analysis
+### Edge Distribution Analysis
 
 This metric analyzes the average RGB values of 10 random pixels along each of the four edges (top, bottom, left, right) and serves two important purposes:
 
